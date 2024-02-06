@@ -4,20 +4,24 @@ html {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
+  line-height: 0;
 }
 h2 {
   font-size: 25px;
   text-align: center;
+  line-height: 2;
 }
 h3 {
   font-size: 15px;
   text-align: center;
+  line-height: 0;
 }
 h4 {
   font-size: 10px;
   text-align: center;
+  line-height: 0;
 }
 .bigger-text{
   font-size: 35px;
@@ -30,17 +34,26 @@ li {
   font-size: 20px;
   line-height: 2;
   letter-spacing: 1px; /* Add a unit, for example: letter-spacing: 1px; */
+  
+
 }
+img {
+  display: block;
+  margin: auto;
+  border: 100px #eea1e3;
+}
+
 html{
   background-color:	#363232;
 
 }
 body{
   width: 600px;
+  height: max-content;
   margin: 0 auto;
   background-color: #f4b5eb;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  padding: 0 27px 20px 20px;
+  border: 10px solid black;
 }
 h1 {
   margin: 0;
@@ -48,7 +61,4 @@ h1 {
   color: 	#eea1e3;
   text-shadow: 3px 3px 1px black;
 }
-img {
-  display: block;
-  margin: 0 auto;
-}
+
