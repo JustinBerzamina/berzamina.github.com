@@ -3,7 +3,7 @@ Iloveyoutoo.addEventListener('click', function() {
     const storedName = localStorage.getItem("name");
 
     if (storedName && ["Kylie", "Lie", "kylie", "lie"].includes(storedName)) {
-      alert('I LOVE YOU TOO BABY!!');
+      alert('I LOVE YOU TOO');
     } else {
       alert('Who the fuck are you?');
     }
